@@ -15,6 +15,8 @@ firebaseApp.auth().onAuthStateChanged(user => {
   }
 })
 
+// TESTE PULL
+
 ReactDOM.render(
   <Router history={ browserHistory }>
     <Route path="/" component={ App } />
